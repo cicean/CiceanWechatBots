@@ -10,7 +10,7 @@ Rasa core and rasa nlu enviroment for local enviroment with moodbot example from
 
 ### Clone project:
 ```
-git clone https://github.com/sasastarcevic/rasa-core-and-nlu-docker-compose.git
+git clone git@github.com:cicean/CiceanWechatBots.git
 ```
 
 ### Go to project
@@ -38,7 +38,7 @@ docker ps -as
 ### Rasa Stack container status
 ```
 CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS              PORTS                                            NAMES                  SIZE
-40ba123eecdb        rasacore_rasa_core   "./entrypoint.sh s..."   9 seconds ago       Up 8 seconds        0.0.0.0:5000->5000/tcp, 0.0.0.0:5005->5005/tcp   rasacore_rasa_core_1   525 kB (virtual 2.7 GB)
+40ba123eecdb        ciceanwechatbots_rasa_core   "./entrypoint.sh s..."   9 seconds ago       Up 8 seconds        0.0.0.0:5000->5000/tcp, 0.0.0.0:5005->5005/tcp   rasacore_rasa_core_1   525 kB (virtual 2.7 GB)
 ```
 
 ### Attach to rasa_core container
