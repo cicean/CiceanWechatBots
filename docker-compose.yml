@@ -1,7 +1,7 @@
 version: '3'
 
-services:
-
+services: 
+  
   rasa_core:
     build: .
     ports:
